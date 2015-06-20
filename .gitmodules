@@ -130,3 +130,6 @@
 [submodule "content/skins/erudite"]
 	path = content/skins/erudite
 	url = https://git.wikimedia.org/git/mediawiki/skins/erudite.git
+[submodule "content/plugins/root-wp-cookie"]
+	path = content/plugins/root-wp-cookie
+	url = https://github.com/wp-plugins/root-wp-cookie.git
