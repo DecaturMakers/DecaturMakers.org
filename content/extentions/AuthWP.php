@@ -23,6 +23,7 @@
 if(!defined('MEDIAWIKI')) {
     die('Not an entry point.');
 }
+$wgAuthWPRelPath = '../wp';
 
 // Relative path to Wordpress installation. In the default '..' we
 // have MediaWiki installed in a 'wiki' directory off the main
@@ -95,7 +96,7 @@ function AuthWPUserLoadFromSession($user, &$result) {
 	}
 	$user->setID($id);
 	$user->loadFromId();
-	wfSetupSession();	
+	wfSetupSession();
 	$user->setCookies();
 
 	// Set these to ensure synchronisation with WordPress...
