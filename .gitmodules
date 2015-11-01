@@ -133,3 +133,6 @@
 [submodule "content/plugins/root-wp-cookie"]
 	path = content/plugins/root-wp-cookie
 	url = https://github.com/wp-plugins/root-wp-cookie.git
+[submodule "content/plugins/backupwordpress"]
+	path = content/plugins/backupwordpress
+	url = https://github.com/wp-plugins/backupwordpress
