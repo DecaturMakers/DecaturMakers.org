@@ -4,9 +4,6 @@
 [submodule "content/plugins/google-analytics-for-wordpress"]
 	path = content/plugins/google-analytics-for-wordpress
 	url = git@github.com:wp-plugins/google-analytics-for-wordpress.git
-[submodule "content/plugins/gravityforms"]
-	path = content/plugins/gravityforms
-	url = git@github.com:gravityforms/gravityforms.git
 [submodule "content/plugins/hotfix"]
 	path = content/plugins/hotfix
 	url = git@github.com:wp-plugins/hotfix.git
